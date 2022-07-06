@@ -6,5 +6,6 @@ RUN tar -xvzf atlassian-plugin-sdk-tgz
 RUN rm -f atlassian-plugin-sdk-tgz
 RUN mv /opt/atlassian-plugin-sdk-* /opt/atlassian-plugin-sdk
 ENV PATH="/opt/atlassian-plugin-sdk/bin:$PATH"
+RUN apk add gnupg
 RUN echo atlas-version
 CMD [ "sh" ]
