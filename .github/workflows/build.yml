@@ -34,6 +34,6 @@ jobs:
               push: true
               tags: |
                 sudheerforu/atlassiansdk:latest
-                sudheerforu/atlassiansdk:1.0.0
-                ghcr.io/sudh33r/alpine/jdk11/asdk:2.0.0
+                sudheerforu/atlassiansdk:3.0.0
+                ghcr.io/sudh33r/alpine/jdk11/asdk:3.0.0
                 ghcr.io/sudh33r/alpine/jdk11/asdk:latest
