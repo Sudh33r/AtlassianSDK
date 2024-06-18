@@ -33,7 +33,7 @@ jobs:
              with:
               push: true
               tags: |
-                sudheerforu/atlassiansdk/jdk17:latest
-                sudheerforu/atlassiansdk/jdk17:1.0.0
+                sudheerforu/atlassiansdk:jdk17-latest
+                sudheerforu/atlassiansdk:jdk17-1.0.0
                 ghcr.io/sudh33r/alpine/jdk17/asdk:1.0.0
                 ghcr.io/sudh33r/alpine/jdk17/asdk:latest
