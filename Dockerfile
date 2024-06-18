@@ -1,4 +1,4 @@
-FROM eclipse-temurin:11-jdk-alpine
+FROM eclipse-temurin:17-jdk-alpine
 LABEL author=sudheer
 WORKDIR /opt
 RUN wget https://marketplace.atlassian.com/download/plugins/atlassian-plugin-sdk-tgz
